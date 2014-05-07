@@ -1,0 +1,530 @@
+#page1{
+	height:800px;
+	background-color: #0D69AB;
+	position:relative;
+		background-image:url(../images/bg.png);
+				width: 100%;
+	margin: 0 auto;
+
+}
+
+
+
+#GIFsxx{
+	height:570px;
+	width:400px;
+	padding-left:127px;
+	padding-top:18%;
+	padding-right:50px;
+	margin-left:0px;
+	margin-right:50px;
+	float:left;
+	z-index: 1;
+		position:relative;
+		overflow:none;
+		clear:both;
+
+}
+
+#content{
+	height:710px;
+width:45%;
+	margin-top:30px;
+	margin-left:127px;
+	padding-bottom:30px;
+	float:left;
+	overflow:scroll;
+	overflow-x:none;
+	background-color:#0D69AB;
+
+}
+
+#contentxx{
+		width: 50%;
+	margin: 0 auto;
+	float:left;
+	font-size: 1.5em;
+	overflow:scroll;
+
+}
+
+#GIFs{
+	padding-left:127px;
+	padding-top:18%;
+	padding-right:10%;
+	width: 40%;
+	margin: 0 auto;
+	float:left;
+	font-size: 1.5em;
+
+}
+
+
+#GIFs_P2{
+margin:0 auto;
+margin-left: -25px;
+	padding-top:2%;
+	width:100%;
+	float:left;
+	font-size: 1.5em;
+	background-image: url(../images/bg3.png);
+
+}
+
+
+
+#video{
+padding-left:10%;
+padding-right:10%;
+padding-top:3%;
+margin:auto;
+}
+
+#videoCEO{
+padding-top:1%;
+margin:auto;
+}
+
+#videotitle{
+	text-align:center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5em !important;
+  font-weight:400;
+  line-height: 2.2em;
+  letter-spacing:1px;
+  text-align:center;
+  border-bottom: 4px solid #3AA358;
+  color: #FFF;
+  letter-spacing: 2px;
+  line-height:60px;
+}
+
+#videoccontainer{
+	margin:auto;
+	padding-top:50px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#videoc1{
+	width:341.3px;
+	padding:0 15 0 0px;
+	float:left;
+}
+
+#videoc2{
+	width:341.3px;
+	float:left;
+	padding:0 7.5 0 7.5px;
+
+}
+
+#videoc3{
+	width:341.3px;
+	padding:0 0 0 15px;
+	float:left;
+
+}
+
+
+#header{
+	height:800px;
+	background-color:#c52b1f;
+	padding-left:0px;
+	background-repeat:no-repeat;
+	z-index:20;
+	position:relative;
+	width:100%;
+}
+
+#headerimg{
+	padding-top:25px;
+	padding-left:0px;
+	z-index: 200;
+		position:relative;
+}
+
+
+
+
+
+#page2{
+	height:800px;
+	background: #F5CD2F;
+	position:relative;
+	clear:both;
+
+
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track:vertical {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-track:horizontal {
+    -webkit-box-shadow: inset 0 0 0px rgba(255,255,255,0.3); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.5); 
+}
+
+::-webkit-scrollbar-corner       { 
+    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.5)}
+
+#page3{
+	height:1450px;
+	background: #287F46;
+	position:relative;
+				background-image:url(../images/bg2.png);
+				width: 100%;
+	margin: 0 auto;
+}
+
+
+#nav{
+	height:auto;
+	width:300px;
+	margin-right:40px;
+	margin-top:200px;
+	z-index:1;
+	position:fixed;
+}
+
+#centerimg{
+	text-align:center;
+}
+
+#nav{
+	line-height:0;
+	top:50%;
+	padding-top:0em;
+	font-size:.4em;
+	font-weight:500;
+	font-size:14px !important;
+	letter-spacing:0.1em;
+	position:fixed;
+	font-family:'Nunito', sans-serif !important;
+	text-align:left;
+	text-transform:none;
+	z-index:2;
+	min-height:140px;
+	margin-top:-40px
+}
+
+
+#nav li{
+	line-height:0;
+	margin-bottom:1em;
+	padding-right:1em;
+	cursor:pointer;
+}
+
+#nav li p{
+	line-height:0;
+	display:inline-block;
+	opacity:0;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+
+@media (max-width: 50em){nav li p{display:none}}
+
+#nav li a span{
+	float:left;
+	content:"";
+	width:4px;
+	height:4px;
+	border:6px solid #ffffff;
+	background:none;
+	margin-right:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-radius:10px;
+	display:inline-block;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+
+#nav li:hover p{
+	opacity:100;
+	margin-right:10px;
+}
+
+#nav li.current a span{
+	border:0px solid #ffffff;
+	background:none
+}
+
+ul
+{
+list-style-type: none;
+}
+
+#nav-wrapper{
+	height:auto;
+	width:180px;
+	margin-right:40px;
+	margin-top:200px;
+	z-index:1;
+	position:fixed;
+
+}
+
+p{
+	font-family:'Nunito', sans-serif;
+	font-size:13px;
+	font-color:#FFF;
+	margin-bottom:0px !important;
+}
+
+a:link {color:#FFF;}      /* unvisited link */
+a:visited {color:#FFF;}  /* visited link */
+a:hover {color:#FFF;}  /* mouse over link */
+a:active {color:#FFF;} 
+
+h3{
+	font-size: 4em;
+line-height: 1.7;
+font-weight: 400;
+margin: 0 0 0.3em;
+position: relative;
+text-align: left;
+letter-spacing: 0.05em;
+font-family: 'Nunito', sans-serif;
+font-size: 1.5em !important;
+line-height: 1.2em;
+padding: .1em 0;
+color: #FFF;
+
+}
+
+h1 {
+font-family: arial;
+  font-size: 1.0em !important;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  font-weight:400;
+  padding: .1em 0;
+  color: #FFF;
+  font-weight:300;
+
+}
+
+h2 {
+font-family: 'Nunito', sans-serif;
+  font-size: 1.8em !important;
+  line-height: 1.5em;
+  padding: .1em 0;
+  color: #FFF;
+  letter-spacing: 2px;
+}
+
+h6 {
+font-family: 'Lato', sans-serif;
+  font-size: 1.3em !important;
+  text-align:center;
+  padding: .1em 0;
+  color: #FFF;
+  letter-spacing: 1px;
+    font-weight: 400;
+    font-style:italic;
+    line-height:1.3em !important;
+    margin:30px !important; 
+}
+
+ol
+{
+
+	border-radius:10px;
+	display:inline-block;
+}
+
+h4 {
+	font-family: 'Nunito', sans-serif;
+  font-size: 2.5em !important;
+  line-height: 2.2em;
+  padding: .1em 0;
+  letter-spacing:1px;
+  text-align:center;
+  color: #FFF;
+  letter-spacing: 2px;
+  line-height:60px;
+
+}
+
+img.alignleft {float:left; margin:0 1em 1em 0}
+
+h5 {
+font-family: 'Nunito', sans-serif;
+  font-size: 1em !important;
+  line-height: 1.5em;
+  padding: .1em 0;
+  color: #FFF;
+  letter-spacing: 2px;
+}
+
+p {
+	text-align:center;
+}
+
+#slidertext {
+	font-family: 'nunito', sans-serif;
+	padding-top:23%;
+	text-align:center;
+	font-weight:400;
+	font-size:4.4em;
+	margin-left: 150px;
+margin-right: 150px;
+	border-bottom: 4px solid #FFE594;
+	color:#FFF;
+	background-image: url(../images/bg5.png);
+
+}
+
+#background{
+	background-image: url(../images/bg3.png);
+}
+
+#slidertextbody {
+    font-family: arial;
+    background: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    padding-left:50%;
+}
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.main,
+.container > header {
+	width: 90%;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 0 1.875em 3.125em 1.875em;
+}
+
+.container > header {
+	padding: 2.875em 1.875em 1.875em;
+}
+
+.container > header h1 {
+	font-size: 2.125em;
+	line-height: 1.3;
+	margin: 0;
+	float: left;
+	font-weight: 400;
+}
+
+.container > header span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding: 0 0 0.6em 0.1em;
+}
+
+.container > header nav {
+	float: right;
+}
+
+.container > header nav a {
+	display: block;
+	float: left;
+	position: relative;
+	width: 2.5em;
+	height: 2.5em;
+	background: #fff;
+	border-radius: 50%;
+	color: transparent;
+	margin: 0 0.1em;
+	border: 4px solid #47a3da;
+	text-indent: -8000px;
+}
+
+.container > header nav a:after {
+	content: attr(data-info);
+	color: #47a3da;
+	position: absolute;
+	width: 600%;
+	top: 120%;
+	text-align: right;
+	right: 0;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.container > header nav a:hover:after {
+	opacity: 1;
+}
+
+.container > header nav a:hover {
+	background: #47a3da;
+}
+
+.icon-drop:before, 
+.icon-arrow-left:before {
+	font-family: 'fontawesome';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 8px;
+}
+
+.container > header nav a:hover:before {
+	color: #fff;
+}
+
+.icon-drop:before {
+	content: "\e000";
+}
+
+.icon-arrow-left:before {
+	content: "\f060";
+}
+
+
+
